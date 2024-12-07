@@ -1,0 +1,22 @@
+@media only screen and (min-width: 422px) {
+	img[class^="editorial-image"] {
+		max-width: 100%;
+		margin: 0.5rem auto;
+		border-radius: 1px;
+
+		&:hover {
+			cursor: pointer;
+			filter: drop-shadow(6px 6px 0px rgba(212, 156, 107, 0.5));
+		}
+	}
+
+	.editorial-image-left {
+		float: none;
+		display: flex;
+	}
+
+	.editorial-image-right {
+		float: none;
+		display: flex;
+		margin: 1rem auto;
+	}
