@@ -1,6 +1,6 @@
 @media only screen and (min-width: 399px) {
 	img[class^="editorial-image"] {
-		max-width: 100%;
+		max-width: 98%;
 		margin: 0.5rem auto;
 		border-radius: 1px;
 
